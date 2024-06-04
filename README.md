@@ -74,3 +74,96 @@ CREATE INDEX - creates an index (search key)
 
 
 DROP INDEX - deletes an index
+
+
+5. What is MySQL?
+
+MySQL is the most popular Open Source SQL database management system developed, distributed, and supported by Oracle Corporation.
+
+Another common SQL interview question regarding MySQL may come in a different form
+
+“What is the difference between SQL and MySQL?” or Difference between SQL and MySQL:
+
+SQL is a structured query language that is used for manipulating and accessing the relational database, on the other hand, MySQL itself is a relational database that uses SQL as the standard database language.
+
+6. What are some properties of PL/SQL?
+
+PL/SQL is a combination of SQL along with the procedural features of programming languages. It was developed by Oracle Corporation in the early 90's to enhance the capabilities of SQL. PL/SQL is one of three key programming languages embedded in the Oracle Database, along with SQL itself and Java.
+
+Another common SQL interview question regarding PL/SQL may come in a different form:
+
+“What is the difference between SQL and PL/SQL? or Difference between SQL and PL/SQL:
+
+SQL is a Structured Query Language used to issue a single query or execute a single insert/update/delete.
+
+PL-SQL is a programming language SQL, used to write full programs using variables, loops,operators etc. to carry out multiple selects/inserts/updates/deletes.
+
+SQL may be considered as the source of data for our reports, web pages and screens.
+
+PL/SQL can be considered as the application language similar to Java or PHP. It might be the language used to build, format and display those reports, web pages and screens.
+
+SQL is a data oriented language used to select and manipulate sets of data.
+
+PL/SQL is a procedural language used to create applications.
+
+SQL vs. PL-SQL
+
+SQL is used to write queries, DDL and DML statements.
+PL/SQL is used to write program blocks, functions, procedures triggers,and packages.
+SQL is executed one statement at a time.
+PL/SQL is executed as a block of code.
+SQL is declarative, i.e., it tells the database what to do but not how to do it. Whereas, PL/SQL is procedural, i.e., it tells the database how to do things.
+SQL can be embedded within a PL/SQL program. But PL/SQL cant be embedded within a SQL statement.
+7. What are the possible values for the BOOLEAN data field in MySQL?
+
+MySQL uses TINYINT(1) data type to represent boolean values. A value of zero is considered false . Non-zero values are considered true .
+
+8. What data type would you choose if you wanted to store the distance (rounded to the nearest mile)?
+
+INTEGER (or INT )   
+9. Which are valid SQL keywords (statements & clauses)
+
+SELECT - extracts data from a database
+
+
+FROM - clause is used to specify the tables to extract data from
+
+
+WHERE - clause is used to extract only those records that fulfill a specified condition.
+
+
+GROUP BY - is often used with aggregate functions (COUNT , MAX , MIN , SUM , AVG ) to group the result-set by one or more columns.
+
+
+HAVING - clause was added to SQL because the WHERE keyword could not be used with aggregate functions.
+
+
+ORDER BY - keyword is used to sort the result-set in ascending or descending order.
+
+
+UPDATE - updates data in a database
+
+DELETE - deletes data from a database
+
+
+INSERT INTO - inserts new data into a database
+
+
+CREATE DATABASE - creates a new database
+
+ALTER DATABASE - modifies a database
+
+
+CREATE TABLE - creates a new table
+
+
+ALTER TABLE - modifies a table
+
+DROP TABLE - deletes a table
+
+
+CREATE INDEX - creates an index (search key)
+
+
+DROP INDEX - deletes an index
+
