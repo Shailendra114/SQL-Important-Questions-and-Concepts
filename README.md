@@ -178,4 +178,10 @@ Any text between -- and the end of the line will be ignored (will not be execute
 
 The following example uses a single-line comment as an explanation:
 
+--Select all:
+
+
+SELECT * FROM Customers;
+
+
 
