@@ -167,3 +167,15 @@ CREATE INDEX - creates an index (search key)
 
 DROP INDEX - deletes an index
 
+
+**10. Which of the following are valid SQL comments?**
+
+Comments are used to explain sections of SQL statements, or to prevent execution of SQL statements.
+
+Single line comments start with -- .
+
+Any text between -- and the end of the line will be ignored (will not be executed).
+
+The following example uses a single-line comment as an explanation:
+
+
