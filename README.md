@@ -192,7 +192,13 @@ The following example uses a multi-line comment as an explanation:
 
 
 /*Select all the columns
+
+
 of all the records
+
+
 in the Customers table:*/
+
+
 SELECT * FROM Customers;
 
