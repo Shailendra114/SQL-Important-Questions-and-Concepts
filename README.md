@@ -213,4 +213,6 @@ SELECT * FROM Products;*/
 
 SELECT * FROM Suppliers;
 
+11. Which SQL statement is used to extract data from a database?
+
 
