@@ -184,4 +184,8 @@ The following example uses a single-line comment as an explanation:
 SELECT * FROM Customers;
 
 
+Multi-line comments start with /* and end with */ .
 
+Any text between /* and */ will be ignored.
+
+The following example uses a multi-line comment as an explanation:
