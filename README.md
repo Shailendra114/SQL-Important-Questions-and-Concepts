@@ -189,3 +189,10 @@ Multi-line comments start with /* and end with */ .
 Any text between /* and */ will be ignored.
 
 The following example uses a multi-line comment as an explanation:
+
+
+/*Select all the columns
+of all the records
+in the Customers table:*/
+SELECT * FROM Customers;
+
