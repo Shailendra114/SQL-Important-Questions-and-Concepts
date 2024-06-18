@@ -202,3 +202,15 @@ in the Customers table:*/
 
 SELECT * FROM Customers;
 
+
+The following example uses a multi-line comment to ignore many statements:
+
+/*SELECT * FROM Customers;
+
+
+SELECT * FROM Products;*/
+
+
+SELECT * FROM Suppliers;
+
+
