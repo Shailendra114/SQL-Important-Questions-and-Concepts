@@ -216,7 +216,21 @@ SELECT * FROM Suppliers;
 11. Which SQL statement is used to extract data from a database?
 
 
+A SELECT statement retrieves zero or more rows from one or more database tables or database views.
 
+As SQL is a declarative programming language, SELECT queries specify a result set, but do not specify how to calculate it.
+
+The SELECT statement has many optional clauses:
+
+WHERE specifies which rows to retrieve.
+
+GROUP BY groups rows sharing a property so that an aggregate function can be applied to each group.
+
+HAVING selects among the groups defined by the GROUP BY clause.
+
+ORDER BY specifies an order in which to return the rows.
+
+AS provides an alias which can be used to temporarily rename tables or columns.
 
 
 
