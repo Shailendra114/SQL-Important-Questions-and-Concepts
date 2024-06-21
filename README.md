@@ -232,5 +232,14 @@ ORDER BY specifies an order in which to return the rows.
 
 AS provides an alias which can be used to temporarily rename tables or columns.
 
+12. How to select all records from the table 'Products'?
+
+SELECT * FROM Products;
+
+If you want to select all the fields available in the table, use the * syntax as this:
+
+SELECT * FROM Products;
+
+
 
 
