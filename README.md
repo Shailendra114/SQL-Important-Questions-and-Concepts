@@ -240,6 +240,20 @@ If you want to select all the fields available in the table, use the * syntax as
 
 SELECT * FROM Products;
 
+13. Can we rename a column in the output of SQL query?
+
+Yes, using AS .
+
+SQL aliases are used to give a column in a table, a temporary name.
+
+Aliases are often used to make column names more readable.
+
+An alias only exists for the duration of the query.
+
+Alias Column Syntax:
+
+SELECT column_name AS alias_name
+FROM table_name;
 
 
 
