@@ -289,3 +289,9 @@ SELECT DISTINCT Syntax
 SELECT DISTINCT column1, column2, ...
 FROM table_name;
 
+17. Consider the following schema ADDRESSES (id, street_name, number, city, state) Which of the following query would display the distinct cities in the ADDRESSES table?
+
+SELECT DISTINCT city FROM addresses;
+
+(same theory applies as for the previous question)
+
