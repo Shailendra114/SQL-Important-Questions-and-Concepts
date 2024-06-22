@@ -273,3 +273,19 @@ Here, column1, column2, ... are the field names of the table you want to select 
 
 SELECT * FROM table_name;
 
+
+15. What does the SQL FROM clause do?
+
+The SQL FROM clause is used to list the tables and any joins required for the SQL statement.
+
+16. Which SQL statement is used to return only different values?
+
+The SELECT DISTINCT statement is used to return only distinct (different) values.
+
+Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values.
+
+SELECT DISTINCT Syntax
+
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+
