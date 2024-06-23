@@ -304,3 +304,22 @@ The WHERE clause is used to filter records.
 The WHERE clause is used to extract only those records that fulfill a specified condition.
 
 SQL requires single quotes around text values (most database systems will also allow double quotes).
+
+19. The OR operator displays a record if ANY conditions listed are true. The AND operator displays a record if ALL of the conditions listed are true.
+
+The WHERE clause can be combined with AND , OR , and NOT operators.
+
+The AND and OR operators are used to filter records based on more than one condition:
+
+The AND operator displays a record if all the conditions separated by AND are TRUE .
+
+The OR operator displays a record if any of the conditions separated by OR are TRUE .
+
+The NOT operator displays a record if the condition(s) is NOT TRUE .
+
+AND Syntax
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 …;
+
