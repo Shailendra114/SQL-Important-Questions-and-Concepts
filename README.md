@@ -295,3 +295,12 @@ SELECT DISTINCT city FROM addresses;
 
 (same theory applies as for the previous question)
 
+18. With SQL, how do you select all the records from a table named "Customers" where the value of the column "FirstName" is "John"?
+
+SELECT * FROM Customers WHERE FirstName='John';
+
+The WHERE clause is used to filter records.
+
+The WHERE clause is used to extract only those records that fulfill a specified condition.
+
+SQL requires single quotes around text values (most database systems will also allow double quotes).
