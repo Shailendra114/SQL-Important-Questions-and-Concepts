@@ -336,3 +336,22 @@ NOT Syntax
 SELECT column1, column2, ...
 FROM table_name
 WHERE NOT condition;
+
+
+20. Which of the following SQL statements has correct syntax?
+
+SELECT * FROM Table1 WHERE Column1 >= 100
+
+SQL Comparison Operators
+
+'=' Equal to
+
+'>' Greater than
+
+'<' Less than
+
+'>=' Greater than or equal to
+
+'<=' Less than or equal to
+
+'≠' Not equal to
