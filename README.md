@@ -355,3 +355,13 @@ SQL Comparison Operators
 '<=' Less than or equal to
 
 '≠' Not equal to
+
+21. With SQL, how do you select all the records from a table named "Customers" where the "FirstName" is "John" and the "LastName" is "Jackson"?
+
+SELECT * FROM Customers WHERE FirstName='John' AND LastName='Jackson'
+Same answers as for the previous 2 questions.
+
+You must use the AND operator that displays a record if all the conditions separated by AND are TRUE and the = (‘equal’) comparison operator.
+
+
+
