@@ -364,4 +364,13 @@ Same answers as for the previous 2 questions.
 You must use the AND operator that displays a record if all the conditions separated by AND are TRUE and the = (‘equal’) comparison operator.
 
 
+22. How to select random 10 rows from a table?
+
+The easiest way to generate random rows in MySQL is to use the ORDER BY RAND() clause.
+
+SELECT * FROM tbl ORDER BY RAND() LIMIT 10;
+This can work fine for small tables. However, for big table, it will have a serious performance problem as in order to generate the list of random rows, MySQL need to assign random number to each row and then sort them.
+
+Even if you want only 10 random rows from a set of 100k rows, MySQL need to sort all the 100k rows and then, extract only 10 of them.
+
 
