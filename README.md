@@ -445,3 +445,11 @@ WHERE CustomerName LIKE 'a_%_%' -- Finds any values that starts with "a" and are
 
 
 WHERE ContactName LIKE 'a%o' -- Finds any values that starts with "a" and ends with "o"
+
+
+25. How to write a query to show the details of a student from Students table whose FirstName starts with 'K'?
+
+SELECT * FROM Students WHERE FirstName LIKE 'K%'.
+
+Explanation from previous question applies.
+
