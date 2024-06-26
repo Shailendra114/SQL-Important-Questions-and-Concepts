@@ -383,3 +383,25 @@ A field with a NULL value is a field with no value.
 If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value.
 
 Note: It is very important to understand that a NULL value is different from a zero value or a field that contains spaces. A field with a NULL value is one that has been left blank during record creation!
+
+How can you return a default value for a NULL?
+
+MySQL
+
+The MySQL IFNULL() function lets you return an alternative value if an expression is NULL:
+
+SELECT ProductName, UnitPrice * (UnitsInStock + IFNULL(UnitsOnOrder, 0))
+FROM Products
+or we can use the COALESCE() function, like this:
+
+SELECT ProductName, UnitPrice * (UnitsInStock + COALESCE(UnitsOnOrder, 0))
+FROM Products
+SQL Server
+
+The SQL Server ISNULL() function lets you return an alternative value when an expression is NULL :
+
+SELECT ProductName, UnitPrice * (UnitsInStock + ISNULL(UnitsOnOrder, 0))
+FROM Products
+
+
+
