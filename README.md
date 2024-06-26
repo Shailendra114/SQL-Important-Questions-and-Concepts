@@ -404,4 +404,27 @@ SELECT ProductName, UnitPrice * (UnitsInStock + ISNULL(UnitsOnOrder, 0))
 FROM Products
 
 
+MS Access
+
+The MS Access IsNull() function returns TRUE (-1) if the expression is a null value, otherwise FALSE (0) :
+
+SELECT ProductName, UnitPrice * (UnitsInStock + IIF(IsNull(UnitsOnOrder), 0, UnitsOnOrder))
+FROM Products
+Oracle
+
+The Oracle NVL() function achieves the same result:
+
+SELECT ProductName, UnitPrice * (UnitsInStock + NVL(UnitsOnOrder, 0))
+FROM Products
+24. Which operator is used to search for a specified text pattern in a column?
+
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+There are two wildcards used in conjunction with the LIKE operator:
+
+% - The percent sign represents zero, one, or multiple characters
+
+_ - The underscore represents a single character
+
+
 
