@@ -497,3 +497,11 @@ or:
 SELECT column_name(s)
 FROM table_name
 WHERE column_name IN (SELECT STATEMENT); --subquery
+
+30. What does UPPER function do?
+
+The UPPER() function converts a string to upper-case.
+
+
+
+
