@@ -465,3 +465,13 @@ SELECT column_name(s)
 FROM table_name
 WHERE column_name BETWEEN value1 AND value2;
 
+27. Which of the following SQL statements is correct?
+
+SELECT * FROM Sales WHERE Date BETWEEN '01/12/2017' AND '01/01/2018'
+
+Explanation from previous question applies.
+
+28. With SQL, how do you select all the records from a table named "Customers" where the "LastName" is alphabetically between (and including) "Brooks" and "Gray"?
+
+SELECT * FROM Customers WHERE LastName BETWEEN 'Brooks' AND 'Gray'  
+Explanation from previous question applies.
