@@ -530,6 +530,15 @@ FROM table_name
 WHERE condition;
 
 
+34. Which SQL functions is used to count the number of results?
+
+The COUNT() function returns the number of rows that matches a specified criteria.
+
+COUNT() Syntax
+
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition;
 
 
 
