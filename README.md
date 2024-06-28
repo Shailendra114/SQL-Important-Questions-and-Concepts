@@ -502,6 +502,17 @@ WHERE column_name IN (SELECT STATEMENT); --subquery
 
 The UPPER() function converts a string to upper-case.
 
+31. What function to use to round a number to the smallest integer value that is greater than or equal to a number?
+
+The CEILING() function returns the smallest integer value that is greater than or equal to the specified number.
+
+The CEIL() function is a synonym for the CEILING() function and also returns the smallest integer value that is greater than or equal to a number.
+
+Example:
+
+SELECT CEILING(25.50); -- returns 26
+
+
 
 
 
