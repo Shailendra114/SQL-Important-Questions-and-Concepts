@@ -513,6 +513,25 @@ Example:
 SELECT CEILING(25.50); -- returns 26
 
 
+32. How to get current date in MySQL (without time)?
+
+The CURDATE() function returns the current date. This function returns the current date as a YYYY-MM-DD format if used in a string context, and as a YYYYMMDD format if used in a numeric context.
+
+The CURRENT_DATE() function is a synonym for the CURDATE() function.
+
+33. Which SQL keyword is used to retrieve a maximum value?
+
+The MAX() function returns the largest value of the selected column.
+
+MAX() Syntax
+
+SELECT MAX(column_name)
+FROM table_name
+WHERE condition;
+
+
+
+
 
 
 
