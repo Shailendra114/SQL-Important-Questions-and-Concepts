@@ -553,6 +553,24 @@ MIN and MAX return the lowest and highest values in a particular column, respect
 
 AVG calculates the average of a group of selected values.
 
+36. With SQL, how can you return the number of records in the "Customers" table?
+
+SELECT COUNT(*) FROM Customers
+
+Same answer as for the previous question.
+
+37. Which 2 SQL keywords specify the sorting direction of the result set retrieved with ORDER BY clause?
+
+ASC | DESC
+
+The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+
+ORDER BY Syntax
+
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+
 
 
 
