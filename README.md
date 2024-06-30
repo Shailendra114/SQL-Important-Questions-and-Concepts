@@ -576,6 +576,25 @@ ORDER BY column1, column2, ... ASC|DESC;
 
 The ORDER BY keyword sorts the records in ascending order by default. To sort the records in descending order, use the DESC keyword.
 
+39. Suppose a Students table has two columns, name and mark. How to get name and mark of top three students?
+
+SELECT name, mark FROM Students ORDER BY mark DESC LIMIT 3;
+
+You have to use ORDER BY to order students by their marks and then select just the first 3 records.
+
+The ORDER BY keyword sorts the records in ascending order by default. To sort the records in descending order, use the DESC keyword.
+
+The SQL SELECT TOP Clause
+
+The SELECT TOP clause is used to specify the number of records to return.
+
+The SELECT TOP clause is useful on large tables with thousands of records. Returning a large number of records can impact on performance.
+
+Not all database systems support the SELECT TOP clause.MySQL supports the LIMIT clause to select a limited number of records, while Oracle uses ROWNUM .
+
+
+
+
 
 
 
