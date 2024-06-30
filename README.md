@@ -593,6 +593,11 @@ The SELECT TOP clause is useful on large tables with thousands of records. Retur
 Not all database systems support the SELECT TOP clause.MySQL supports the LIMIT clause to select a limited number of records, while Oracle uses ROWNUM .
 
 
+40. With SQL, how can you return all the records from a table named "Customers" sorted descending by "FirstName"?
+
+SELECT * FROM Customers ORDER BY FirstName DESC;
+Same answers as for the previous 2 questions apply.
+
 
 
 
