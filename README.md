@@ -572,5 +572,13 @@ FROM table_name
 ORDER BY column1, column2, ... ASC|DESC;
 
 
+38. If you don't specify ASC or DESC for an ORDER BY clause, the following is used by default:
+
+The ORDER BY keyword sorts the records in ascending order by default. To sort the records in descending order, use the DESC keyword.
+
+
+
+
+
 
 
