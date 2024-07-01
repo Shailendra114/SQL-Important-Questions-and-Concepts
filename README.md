@@ -598,6 +598,14 @@ Not all database systems support the SELECT TOP clause.MySQL supports the LIMIT 
 SELECT * FROM Customers ORDER BY FirstName DESC;
 Same answers as for the previous 2 questions apply.
 
+41. Which of the following SQL statements is correct?
+
+SELECT name, COUNT(name) FROM customers GROUP BY name
+
+SQL aggregate functions like COUNT , AVG , and SUM have something in common: they all aggregate across the entire table. But what if you want to aggregate only part of a table? For example, you might want to count the customers having the same name. In situations like this, you’d need to use the GROUP BY clause. GROUP BY allows you to separate data into groups, which can be aggregated independently of one another.
+
+
+
 
 
 
