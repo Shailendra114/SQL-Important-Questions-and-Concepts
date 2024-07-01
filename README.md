@@ -624,7 +624,13 @@ HAVING requires that a GROUP BY clause is present.
 WHERE and HAVING can be in the same query.
 
 
+43. What is JOIN used for?
 
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+44. What is the most common type of join?
+
+The most common type of join used in day to day queries is INNER JOIN .
 
 
 
