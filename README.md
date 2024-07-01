@@ -633,6 +633,42 @@ A JOIN clause is used to combine rows from two or more tables, based on a relate
 The most common type of join used in day to day queries is INNER JOIN .
 
 
+45. What are different JOINS used in SQL?
+
+There are several types of joins:
+
+SQL INNER JOIN Keyword
+
+The INNER JOIN keyword selects records that have matching values in both tables.
+
+SQL LEFT JOIN Keyword
+
+The LEFT JOIN keyword returns all records from the left table (table1), and the matched records from the right table (table2). The result is NULL from the right side, if there is no match.
+
+SQL RIGHT JOIN Keyword
+
+The RIGHT JOIN keyword returns all records from the right table (table2), and the matched records from the left table (table1). The result is NULL from the left side, when there is no match.
+
+SQL FULL OUTER JOIN Keyword
+
+The FULL OUTER JOIN keyword return all records when there is a match in either left (table1) or right (table2) table records.
+
+Note: FULL OUTER JOIN can potentially return very large result-sets!
+
+SQL Self JOIN
+
+A self JOIN is a regular join, but the table is joined with itself.
+
+SQL CROSS JOIN
+
+The SQL CROSS JOIN produces a result set which is the number of rows in the first table multiplied by the number of rows in the second table if no WHERE clause is used along with CROSS JOIN .This kind of result is called as Cartesian Product.
+
+If WHERE clause is used with CROSS JOIN , it functions like an INNER JOIN .
+
+
+
+
+
 
 
 
