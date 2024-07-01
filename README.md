@@ -605,7 +605,23 @@ SELECT name, COUNT(name) FROM customers GROUP BY name
 SQL aggregate functions like COUNT , AVG , and SUM have something in common: they all aggregate across the entire table. But what if you want to aggregate only part of a table? For example, you might want to count the customers having the same name. In situations like this, you’d need to use the GROUP BY clause. GROUP BY allows you to separate data into groups, which can be aggregated independently of one another.
 
 
+42. What is the difference between HAVING clause and WHERE clause?
 
+Both specify a search condition but HAVING clause is used only with the SELECT statement and typically used with GROUP BY clause.
+
+If GROUP BY clause is not used then HAVING behaves like WHERE clause only.
+
+Here are some other differences:
+
+HAVING filters records that work on summarized GROUP BY results.
+
+HAVING applies to summarized group records, whereas WHERE applies to individual records.
+
+Only the groups that meet the HAVING criteria will be returned.
+
+HAVING requires that a GROUP BY clause is present.
+
+WHERE and HAVING can be in the same query.
 
 
 
