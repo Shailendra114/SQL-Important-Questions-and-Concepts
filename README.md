@@ -669,6 +669,14 @@ If WHERE clause is used with CROSS JOIN , it functions like an INNER JOIN .
 
 ON clause is used to specify conditions or specify columns to JOIN . ON clause makes the query easy to understand. ON clause allows 3 way (or more) joins.
 
+47. Assume that Table A is joined to Table B. An inner join:
+
+Displays rows (records) only when the values of the Key in table A and the foreign key in table B are equal.
+
+The INNER JOIN keyword selects records that have matching values in both tables.
+
+
+
 
 
 
