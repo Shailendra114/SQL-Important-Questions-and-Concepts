@@ -665,6 +665,10 @@ The SQL CROSS JOIN produces a result set which is the number of rows in the firs
 
 If WHERE clause is used with CROSS JOIN , it functions like an INNER JOIN .
 
+46. Which of the following is NOT TRUE about the ON clause?
+
+ON clause is used to specify conditions or specify columns to JOIN . ON clause makes the query easy to understand. ON clause allows 3 way (or more) joins.
+
 
 
 
