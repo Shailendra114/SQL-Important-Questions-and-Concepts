@@ -676,6 +676,18 @@ Displays rows (records) only when the values of the Key in table A and the forei
 The INNER JOIN keyword selects records that have matching values in both tables.
 
 
+48. Can you join 3 tables together with inner join:
+
+Yes. You can join multiple tables with inner join.
+
+For example, for a Faculty table the lookup tables might be Division, with DivisionID as the PK, Country, with CountryID as the PK, and Nationality, with NationalityID as the PK. To join Faculty to the Division, Country, and Nationality tables, the fields DivisionID, CountryID and NationalityID would need to be foreign keys in the Faculty table.
+
+The SQL to join them would then be:
+
+SELECT <fieldlist> FROM Faculty AS f
+INNER JOIN Division AS d ON d.FacultyID = f.FacultyID
+INNER JOIN Country AS c ON c.FacultyID = f.FacultyID
+INNER JOIN Nationality AS n ON n.FacultyID = f.FacultyID
 
 
 
