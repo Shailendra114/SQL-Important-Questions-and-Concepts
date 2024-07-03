@@ -690,6 +690,15 @@ INNER JOIN Country AS c ON c.FacultyID = f.FacultyID
 INNER JOIN Nationality AS n ON n.FacultyID = f.FacultyID
 
 
+49. Can you join a table to itself?
+
+Yes. The operation is called self join.
+
+Self JOIN Syntax
+
+SELECT column_name(s)
+FROM table1 T1, table1 T2
+WHERE condition;
 
 
 
