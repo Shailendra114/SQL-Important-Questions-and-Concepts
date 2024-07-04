@@ -715,6 +715,23 @@ FROM table1
 CROSS JOIN table2;
 
 
+51. In relational algebra the INTERSECTION of two sets (set A and Set B) corresponds to
+
+A AND B
+
+The SQL INTERSECT clause/operator is used to combine two SELECT statements, but returns rows only from the first SELECT statement that are identical to a row in the second SELECT statement. This means INTERSECT returns only common rows returned by the two SELECT statements.
+
+INTERSECT Syntax
+
+SELECT column1 [, column2 ]
+FROM table1 [, table2 ]
+[WHERE condition]
+INTERSECT
+SELECT column1 [, column2 ]
+FROM table1 [, table2 ]
+[WHERE condition]
+
+
 
 
 
