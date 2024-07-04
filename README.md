@@ -700,6 +700,19 @@ SELECT column_name(s)
 FROM table1 T1, table1 T2
 WHERE condition;
 
+50. Which of the following is true about Cartesian Products?
+
+A Cartesian product is formed when a join condition is omitted.
+
+The SQL CROSS JOIN produces a result set which is the number of rows in the first table multiplied by the number of rows in the second table if no WHERE clause is used along with CROSS JOIN .This kind of result is called as Cartesian Product.
+
+If WHERE clause is used with CROSS JOIN , it functions like an INNER JOIN .
+
+CROSS JOIN Syntax
+
+SELECT *
+FROM table1
+CROSS JOIN table2;
 
 
 
