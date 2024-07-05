@@ -760,6 +760,13 @@ SELECT column1 [, column2 ]
 FROM table1 [, table2 ]
 [WHERE condition]
 
+53. What is the difference between UNION and UNION ALL?
+
+UNION – returns all distinct rows selected by either query
+
+UNION ALL – returns all rows selected by either query, including all duplicates.
+
+
 
 
 
