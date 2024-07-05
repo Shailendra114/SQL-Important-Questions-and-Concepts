@@ -767,6 +767,23 @@ UNION – returns all distinct rows selected by either query
 UNION ALL – returns all rows selected by either query, including all duplicates.
 
 
+54. Having a list of Customer Names that searched for product 'X' and a list of customer Names that bought the product 'X'. What set operator would you use to get only those who are interested but did not bought product 'X' yet?
+
+MINUS
+
+The SQL MINUS operator is used to return all rows in the first SELECT statement that are not returned by the second SELECT statement. Each SELECT statement will define a dataset. The MINUS operator will retrieve all records from the first dataset and then remove from the results all records from the second dataset.
+
+MINUS Syntax
+
+SELECT expression1, expression2, ... expression_n
+FROM tables
+[WHERE conditions]
+MINUS
+SELECT expression1, expression2, ... expression_n
+FROM tables
+[WHERE conditions];
+
+
 
 
 
