@@ -783,6 +783,24 @@ SELECT expression1, expression2, ... expression_n
 FROM tables
 [WHERE conditions];
 
+55. One (or more) select statement whose return values are used in filtering conditions of the main query is called
+
+Subquery.
+
+A subquery is a SQL query nested inside a main query.
+
+A subquery may occur in :
+
+A SELECT clause
+A FROM clause
+A WHERE clause
+A subquery is usually added within the WHERE clause of another SQL SELECT statement.
+
+You can use the comparison operators, such as > , < , or = . The comparison operator can also be a multiple-row operator, such as IN , ANY , or ALL .
+
+A subquery is also called an inner query or inner select, while the statement containing a subquery is also called an outer query or outer select.
+
+The inner query executes first before its parent query so that the results of an inner query can be passed to the outer query.
 
 
 
