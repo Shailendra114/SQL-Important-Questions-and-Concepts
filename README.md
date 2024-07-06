@@ -806,4 +806,8 @@ The inner query executes first before its parent query so that the results of an
 
 The subquery can be nested inside a SELECT , INSERT , UPDATE , or DELETE statement or inside another subquery.
 
+57. What row comparison operators can be used with a subquery?
+
+You can use the comparison operators, such as > , < , or = . The comparison operator can also be a multiple-row operator, such as IN , ANY , or ALL .
+
 
