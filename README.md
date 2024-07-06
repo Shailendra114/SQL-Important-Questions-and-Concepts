@@ -802,6 +802,8 @@ A subquery is also called an inner query or inner select, while the statement co
 
 The inner query executes first before its parent query so that the results of an inner query can be passed to the outer query.
 
+56. Subqueries can be nested in...
 
+The subquery can be nested inside a SELECT , INSERT , UPDATE , or DELETE statement or inside another subquery.
 
 
