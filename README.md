@@ -818,3 +818,19 @@ Subquery within another subquery is called as Nested Subquery.
 59. A subquery that uses a correlation name from the outer query is called a
 
 If the output of a subquery is depending on column values of the parent query table then the query is called Correlated Subquery.
+
+
+60. What is Case Function?
+
+The CASE function lets you evaluate conditions and return a value when the first condition is met (like an IF-THEN-ELSE statement).
+
+CASE Syntax
+
+CASE expression
+WHEN condition1 THEN result1
+WHEN condition2 THEN result2
+...
+WHEN conditionN THEN resultN
+ELSE result
+END  
+
