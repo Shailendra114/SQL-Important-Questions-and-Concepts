@@ -814,3 +814,7 @@ You can use the comparison operators, such as > , < , or = . The comparison oper
 
 Subquery within another subquery is called as Nested Subquery.
 
+
+59. A subquery that uses a correlation name from the outer query is called a
+
+If the output of a subquery is depending on column values of the parent query table then the query is called Correlated Subquery.
