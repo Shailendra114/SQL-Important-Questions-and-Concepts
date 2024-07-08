@@ -834,3 +834,14 @@ WHEN conditionN THEN resultN
 ELSE result
 END  
 
+
+61. What are different types of statements supported by SQL?
+
+DDL (Data Definition Language): It is used to define the database structure such as tables. It includes three statements such as Create, Alter, and Drop.
+
+DML (Data Manipulation Language): These statements are used to manipulate the data in records. Commonly used DML statements are Select, Insert, Update, and Delete.
+
+Note: Some people prefer to assign the SELECT statement to a category of its own called: DQL. Data Query Language.
+
+DCL (Data Control Language): These statements are used to set privileges such as Grant and Revoke database access permission to the specific user.
+
