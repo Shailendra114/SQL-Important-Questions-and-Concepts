@@ -869,4 +869,14 @@ UPDATE
 DELETE
 
 
+64. Grant and Revoke commands are under
+
+DCL (Data Control Language)
+
+GRANT : Used to provide any user access privileges or other privileges for the database.
+
+REVOKE : Used to take back permissions from any user.
+
+
+
 
