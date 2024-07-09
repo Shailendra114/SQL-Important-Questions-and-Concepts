@@ -859,4 +859,14 @@ DROP Statements
 TRUNCATE TABLE
 
 
+63. DML includes the following SQL statements
+
+DML statements are:
+
+SELECT
+INSERT
+UPDATE
+DELETE
+
+
 
