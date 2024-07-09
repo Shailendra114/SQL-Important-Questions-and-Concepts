@@ -845,3 +845,18 @@ Note: Some people prefer to assign the SELECT statement to a category of its own
 
 DCL (Data Control Language): These statements are used to set privileges such as Grant and Revoke database access permission to the specific user.
 
+
+62. Which of the following SQL statements are DDL
+
+DDL statements include:
+
+ALTER Statements
+
+CREATE Statements
+
+DROP Statements
+
+TRUNCATE TABLE
+
+
+
