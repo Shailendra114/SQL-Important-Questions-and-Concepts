@@ -884,3 +884,8 @@ Same answer as for the previous questions.
 
 COMMIT is used to persist changes performed during a TRANSACTION.
 
+66. Which SQL statement is used to insert new data in a database?
+
+The INSERT INTO statement is used to insert new records in a table.
+
+
