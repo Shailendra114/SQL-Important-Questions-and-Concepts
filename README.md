@@ -878,5 +878,9 @@ GRANT : Used to provide any user access privileges or other privileges for the d
 REVOKE : Used to take back permissions from any user.
 
 
+65. Which of the following is not a DML statement?
 
+Same answer as for the previous questions.
+
+COMMIT is used to persist changes performed during a TRANSACTION.
 
