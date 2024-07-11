@@ -6,7 +6,7 @@ This repository is the collection of important SQL questions and concepts.
 
 ## A comprehensive guide before your next interview
 
-1. SQL was developed as an integral part of
+1. SQL was developed as an integral part of    
 
 SQL - Structured Query Language is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).
 
