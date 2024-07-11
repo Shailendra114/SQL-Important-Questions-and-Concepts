@@ -16,7 +16,7 @@ However, to be compliant with the ANSI standard, they all support at least the m
 
 Note: Most of the SQL database programs also have their own proprietary extensions in addition to the SQL standard!
 
-What Can SQL do?
+What Can SQL do?     
 
 SQL can execute queries against a database
 SQL can retrieve data from a database
