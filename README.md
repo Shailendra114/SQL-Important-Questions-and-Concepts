@@ -905,3 +905,8 @@ INSERT INTO table_name
 VALUES (value1, value2, value3, ...);
 
 
+68. With SQL, how can you insert a new record into the "Customers" table?
+
+Same answer as for the previous question.
+
+
