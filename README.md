@@ -909,4 +909,9 @@ VALUES (value1, value2, value3, ...);
 
 Same answer as for the previous question.
 
+69. With SQL, how can you insert "Hawkins" as the "LastName" in the "Customers" table?
+
+Same answer as for the previous question.
+
+
 
