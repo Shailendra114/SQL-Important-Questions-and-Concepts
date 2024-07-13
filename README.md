@@ -913,5 +913,17 @@ Same answer as for the previous question.
 
 Same answer as for the previous question.
 
+70. How do you create a temporary table in MySQL?
+
+To create a temporary table, you just need to add the TEMPORARY keyword to the CREATE TABLE statement.
+
+Example:
+
+CREATE TEMPORARY TABLE top10customers
+SELECT customer.fname, customer.lname
+FROM customers
+/* all the conditions to fecth the top 10 customers */
+
+
 
 
