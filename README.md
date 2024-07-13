@@ -925,5 +925,15 @@ FROM customers
 /* all the conditions to fecth the top 10 customers */
 
 
+71. Which SQL statement is used to update data in a database?
+
+The UPDATE statement is used to modify the existing records in a table.
+
+UPDATE Syntax
+
+-   UPDATE table_name
+-   SET column1 = value1, column2 = value2, ...
+-   WHERE condition;
+
 
 
