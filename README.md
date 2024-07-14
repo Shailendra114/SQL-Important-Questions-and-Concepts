@@ -935,5 +935,16 @@ UPDATE Syntax
 -   SET column1 = value1, column2 = value2, ...
 -   WHERE condition;
 
+72. What is the keyword is used in an UPDATE query to modify the existing value?
+
+The answer is SET .
+
+UPDATE Syntax
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+
 
 
