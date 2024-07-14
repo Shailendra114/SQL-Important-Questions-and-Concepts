@@ -945,6 +945,13 @@ UPDATE table_name
 SET column1 = value1, column2 = value2, ...
 WHERE condition;
 
+73. How can you change "Jackson" into "Hawkins" in the "LastName" column in the Customer table?
+
+UPDATE Customers SET LastName='Hawkins' WHERE LastName='Jackson'  
+Same explanation as for the previous question.
+
+
+
 
 
 
