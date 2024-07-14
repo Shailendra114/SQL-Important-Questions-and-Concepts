@@ -950,6 +950,16 @@ WHERE condition;
 UPDATE Customers SET LastName='Hawkins' WHERE LastName='Jackson'  
 Same explanation as for the previous question.
 
+74. Which SQL statement is used to delete data from a database?
+
+The DELETE statement is used to delete existing records in a table.
+
+DELETE Syntax
+
+DELETE FROM table_name
+WHERE condition;
+
+
 
 
 
