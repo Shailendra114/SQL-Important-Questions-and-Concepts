@@ -960,6 +960,13 @@ DELETE FROM table_name
 WHERE condition;
 
 
+75. With SQL, how can you delete the records where the "FirstName" is "John" in the Customers Table?
+
+DELETE FROM Customers WHERE FirstName = 'John'
+
+
+
+
 
 
 
