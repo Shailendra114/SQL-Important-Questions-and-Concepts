@@ -988,6 +988,16 @@ SELECT column1, column2, ...
 FROM table_name;
 
 
+77. What is the difference between DELETE and TRUNCATE?
+
+The basic difference in both is DELETE is DML command and TRUNCATE is DDL.
+
+DELETE is used to delete a specific row from the table whereas TRUNCATE is used to remove all rows from the table
+
+We can use DELETE with WHERE clause but cannot use TRUNCATE with it.
+
+
+
 
 
 
