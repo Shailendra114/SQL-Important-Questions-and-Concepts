@@ -965,7 +965,27 @@ WHERE condition;
 DELETE FROM Customers WHERE FirstName = 'John'
 
 
+76. The FROM SQL keyword is used to
 
+Specify the table we are are selecting or deleting from.
+
+DELETE Syntax
+
+DELETE FROM table_name
+WHERE condition;
+UPDATE Syntax
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+INSERT Syntax
+
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+SELECT Syntax
+
+SELECT column1, column2, ...
+FROM table_name;
 
 
 
