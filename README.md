@@ -996,6 +996,20 @@ DELETE is used to delete a specific row from the table whereas TRUNCATE is used 
 
 We can use DELETE with WHERE clause but cannot use TRUNCATE with it.
 
+78. Which SQL statement is used to create a table in a database?
+
+The CREATE TABLE statement is used to create a new table in a database.
+
+Syntax
+
+CREATE TABLE table_name (
+column1 datatype,
+column2 datatype,
+column3 datatype,
+....
+);
+
+
 
 
 
