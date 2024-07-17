@@ -1099,6 +1099,15 @@ DEFAULT - Sets a default value for a column when no value is specified
 
 INDEX - Used to create and retrieve data from the database very quickly
 
+82. Which of the following is NOT TRUE about constraints?
+
+NOT NULL - Ensures that a column cannot have a NULL value
+
+UNIQUE - Ensures that all values in a column are different
+
+PRIMARY KEY - A combination of a NOT NULL and UNIQUE . Uniquely identifies each row in a table
+
+
 
 
 
