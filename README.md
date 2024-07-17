@@ -1028,7 +1028,52 @@ In real life, most character sets have many characters: not just A and B but who
 Source: dev.mysql.com
 
 
+80. What is true about an AUTO_INCREMENT column in SQL?
 
+AUTO_INCREMENT allows a unique number to be generated automatically when a new record is inserted into a table. Often this is the primary key field that we would like to be created automatically every time a new record is inserted.
+
+Syntax for MySQL
+
+The following SQL statement defines the "ID" column to be an auto-increment primary key field in the "Persons" table:
+
+CREATE TABLE Persons (
+ID int NOT NULL AUTO_INCREMENT,
+LastName varchar(255) NOT NULL,
+FirstName varchar(255),
+Age int,
+PRIMARY KEY (ID)
+);
+Syntax for SQL Server
+
+The following SQL statement defines the "ID" column to be an auto-increment primary key field in the "Persons" table:
+
+CREATE TABLE Persons (
+ID int IDENTITY(1,1) PRIMARY KEY,
+LastName varchar(255) NOT NULL,
+FirstName varchar(255),
+Age int
+);
+Syntax for Oracle
+
+
+In Oracle the code is a little bit more tricky.
+
+You will have to create an auto-increment field with the sequence object (this object generates a number sequence).
+
+Use the following CREATE SEQUENCE syntax:
+
+CREATE SEQUENCE seq_person
+MINVALUE 1
+START WITH 1
+INCREMENT BY 1
+CACHE 10;
+The code above creates a sequence object called seq_person, that starts with 1 and will increment by 1. It will also cache up to 10 values for performance. The cache option specifies how many sequence values will be stored in memory for faster access.
+
+To insert a new record into the "Persons" table, we will have to use the nextval function (this function retrieves the next value from seq_person sequence):
+
+INSERT INTO Persons (ID,FirstName,LastName)
+VALUES (seq_person.nextval,'Lars','Monsen');
+The SQL statement above would insert a new record into the "Persons" table. The "ID" column would be assigned the next number from the seq_person sequence. The "FirstName" column would be set to "Lars" and the "LastName" column would be set to "Monsen".
 
 
 
