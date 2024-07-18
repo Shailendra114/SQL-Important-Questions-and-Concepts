@@ -1114,6 +1114,11 @@ PRIMARY KEY - A combination of a NOT NULL and UNIQUE . Uniquely identifies each 
 NOT NULL - Ensures that a column cannot have a NULL value.
 
 
+84. An unique (non-key) field
+
+The UNIQUE constraint ensures that all values in a column are different.
+
+
 
 
 
