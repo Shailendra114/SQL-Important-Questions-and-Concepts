@@ -1109,6 +1109,11 @@ PRIMARY KEY - A combination of a NOT NULL and UNIQUE . Uniquely identifies each 
 
 
 
+83. The NOT NULL constraint enforces a column to not accept null values.
+
+NOT NULL - Ensures that a column cannot have a NULL value.
+
+
 
 
 
