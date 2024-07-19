@@ -1119,6 +1119,36 @@ NOT NULL - Ensures that a column cannot have a NULL value.
 The UNIQUE constraint ensures that all values in a column are different.
 
 
+85. What is CHECK Constraint?
+
+The CHECK constraint is used to limit the value range that can be placed in a column.
+
+If you define a CHECK constraint on a single column it allows only certain values for this column.
+
+If you define a CHECK constraint on a table it can limit the values in certain columns based on values in other columns in the row.
+
+SQL CHECK on CREATE TABLE
+
+The following SQL creates a CHECK constraint on the "Age" column when the "Persons" table is created. The CHECK constraint ensures that you can not have any person below 18 years:
+
+MySQL:
+
+CREATE TABLE Persons (
+ID int NOT NULL,
+LastName varchar(255) NOT NULL,
+FirstName varchar(255),
+Age int,
+CHECK (Age>=18)
+);
+SQL Server / Oracle / MS Access:
+
+CREATE TABLE Persons (
+ID int NOT NULL,
+LastName varchar(255) NOT NULL,
+FirstName varchar(255),
+Age int CHECK (Age>=18)
+);
+
 
 
 
