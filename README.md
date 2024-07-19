@@ -1159,6 +1159,14 @@ A PRIMARY KEY constraint automatically has a UNIQUE constraint.
 
 However, you can have many UNIQUE constraints per table, but only one PRIMARY KEY constraint per table.
 
+87. What does SQL DROP TABLE clause do?
+
+The DROP TABLE statement is used to drop an existing table in a database.
+
+Syntax
+
+DROP TABLE table_name;
+
 
 
 
