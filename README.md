@@ -1149,6 +1149,17 @@ FirstName varchar(255),
 Age int CHECK (Age>=18)
 );
 
+86. What is the difference between UNIQUE and PRIMARY KEY constraints?
+
+UNIQUE vs PRIMARY KEY
+
+Both the UNIQUE and PRIMARY KEY constraints provide a guarantee for uniqueness for a column or set of columns.
+
+A PRIMARY KEY constraint automatically has a UNIQUE constraint.
+
+However, you can have many UNIQUE constraints per table, but only one PRIMARY KEY constraint per table.
+
+
 
 
 
