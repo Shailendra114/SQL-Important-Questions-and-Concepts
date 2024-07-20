@@ -1171,6 +1171,22 @@ DROP TABLE table_name;
 
 TRUNCATE removes all rows from the table which cannot be retrieved back, DROP removes the entire table from the database and it cannot be retrieved back.
 
+89. How do you add a 'order_date' column to a table called 'order'?
+
+ALTER TABLE order ADD order_date DATE
+
+The ALTER TABLE statement is used to add, delete, or modify columns in an existing table.
+
+The ALTER TABLE statement is also used to add and drop various constraints on an existing table.
+
+ALTER TABLE - ADD Column
+
+To add a column in a table, use the following syntax:
+
+ALTER TABLE table_name
+ADD column_name datatype;
+
+
 
 
 
