@@ -1167,6 +1167,11 @@ Syntax
 
 DROP TABLE table_name;
 
+88. What is the difference between DROP and TRUNCATE?
+
+TRUNCATE removes all rows from the table which cannot be retrieved back, DROP removes the entire table from the database and it cannot be retrieved back.
+
+
 
 
 
