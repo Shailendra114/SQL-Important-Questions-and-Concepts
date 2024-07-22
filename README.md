@@ -1186,6 +1186,20 @@ To add a column in a table, use the following syntax:
 ALTER TABLE table_name
 ADD column_name datatype;
 
+90. What the correct syntax to rename column 'Address' to 'Addr' in 'Customer' table?
+
+ALTER TABLE Customer CHANGE Address Addr varchar(50);
+
+ALTER TABLE - CHANGE
+
+You rename a column using the ALTER TABLE and CHANGE commands together to change an existing column.
+
+Syntax
+
+ALTER TABLE table_name
+CHANGE oldname newname datatype 
+
+
 
 
 
