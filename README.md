@@ -1224,6 +1224,14 @@ Creates an index on a table. Duplicate values are allowed:
 CREATE INDEX index_name
 ON table_name (column1, column2, ...)
 
+93. What is the difference between clustered and non-clustered indexes? Which of the following statements are true?
+
+One table can have only one clustered index but multiple nonclustered indexes.
+
+Clustered indexes can be read rapidly rather than non-clustered indexes.
+
+Clustered indexes store data physically in the table or view and non-clustered indexes do not store data in table as it has separate structure from data row.
+
 
 
 
