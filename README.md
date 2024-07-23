@@ -1232,6 +1232,28 @@ Clustered indexes can be read rapidly rather than non-clustered indexes.
 
 Clustered indexes store data physically in the table or view and non-clustered indexes do not store data in table as it has separate structure from data row.
 
+94. The statement for assigning access privileges is
+
+SQL GRANT and REVOKE commands are used to implement privileges in SQL multiple user environments. The administrator of the database can grant or revoke privileges to or from users of database object like SELECT , INSERT , UPDATE , DELETE , ALL etc.
+
+GRANT Command: This command is used provide database access to user apart from an administrator.
+
+Syntax
+
+GRANT privilege_name
+ON object_name
+TO {user_name|PUBLIC|role_name}
+[WITH GRANT OPTION];
+In above syntax WITH GRANT OPTIONS indicates that the user can grant the access to another user too.
+
+REVOKE Command: This command is used provide database deny or remove access to database objects.
+
+Syntax
+
+REVOKE privilege_name
+ON object_name
+FROM {user_name|PUBLIC|role_name}
+
 
 
 
