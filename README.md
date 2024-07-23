@@ -1255,6 +1255,13 @@ ON object_name
 FROM {user_name|PUBLIC|role_name}
 
 
+95. How many types of Privileges are available in SQL?
+
+There are two types of privileges used in SQL, such as
+
+System Privilege: System privileges deal with an object of a particular type and specifies the right to perform one or more actions on it which include Admin allows a user to perform administrative tasks, ALTER ANY INDEX, ALTER ANY CACHE GROUP CREATE/ALTER/DELETE TABLE, CREATE/ALTER/DELETE VIEW etc.
+
+Object Privilege: This allows to perform actions on an object or object of another user(s) viz. table, view, indexes etc. Some of the object privileges are EXECUTE, INSERT, UPDATE, DELETE, SELECT, FLUSH, LOAD, INDEX, REFERENCES etc.
 
 
 
