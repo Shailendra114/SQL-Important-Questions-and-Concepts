@@ -1268,6 +1268,12 @@ Object Privilege: This allows to perform actions on an object or object of anoth
 Same answers as for the previous question
 
 
+97. What does the term 'locking' refer to?
+
+Locking is a process preventing users from reading data being changed by other users, and prevents concurrent users from changing the same data at the same time.
+
+
+
 
 
 
