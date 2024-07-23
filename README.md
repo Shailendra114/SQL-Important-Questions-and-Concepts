@@ -1263,6 +1263,11 @@ System Privilege: System privileges deal with an object of a particular type and
 
 Object Privilege: This allows to perform actions on an object or object of another user(s) viz. table, view, indexes etc. Some of the object privileges are EXECUTE, INSERT, UPDATE, DELETE, SELECT, FLUSH, LOAD, INDEX, REFERENCES etc.
 
+96. List the various privileges that a user can grant to another user?
+
+Same answers as for the previous question
+
+
 
 
 
