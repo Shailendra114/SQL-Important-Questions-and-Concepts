@@ -1311,6 +1311,14 @@ Committed**.**
 
 
 
+100. Consider the following code: START TRANSACTION /transaction body/ COMMIT; ROLLBACK; What does Rollback do?
+
+It does nothing. Once a transaction has executed commit, its effects can no longer be undone by rollback.
+
+
+
+
+
 
 
 
