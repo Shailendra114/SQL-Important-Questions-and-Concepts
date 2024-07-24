@@ -1305,6 +1305,11 @@ SAVEPOINT savepoint_name;
 In short, using this command we can name the different states of our data in any table and then rollback to that state using the ROLLBACK command whenever required.
 
 
+99. A transaction completes its execution is said to be
+
+Committed**.**
+
+
 
 
 
