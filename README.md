@@ -1274,6 +1274,41 @@ Locking is a process preventing users from reading data being changed by other u
 
 
 
+98. What are a transaction's main controls?
+
+COMMIT command is used to permanently save any transaction into the database.
+
+When we use any DML command like INSERT , UPDATE or DELETE , the changes made by these commands are not permanent, until the current session is closed, the changes made by these commands can be rolled back.
+
+To avoid that, we use the COMMIT command to mark the changes as permanent.
+
+Following is commit command syntax:
+
+COMMIT;
+ROLLBACK command
+
+This command restores the database to last committed state. It is also used with SAVEPOINT command to jump to a savepoint in an ongoing transaction.
+
+If we have used the UPDATE command to make some changes into the database, and realise that those changes were not required, then we can use the ROLLBACK command to rollback those changes, if they were not committed using the COMMIT command.
+
+Following is rollback command syntax:
+
+ROLLBACK TO savepoint_name;
+
+SAVEPOINT command
+
+SAVEPOINT command is used to temporarily save a transaction so that you can rollback to that point whenever required.
+
+Following is savepoint command syntax:
+
+SAVEPOINT savepoint_name;
+In short, using this command we can name the different states of our data in any table and then rollback to that state using the ROLLBACK command whenever required.
+
+
+
+
+
+
 
 
 
