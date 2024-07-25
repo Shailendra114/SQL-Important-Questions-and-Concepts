@@ -1319,6 +1319,12 @@ It does nothing. Once a transaction has executed commit, its effects can no long
 The characteristics of these four properties as defined by Reuter and Härder are as follows:---
 
 
+Atomicity
+
+​Atomicity requires that each transaction be "all or nothing": if one part of the transaction fails, then the entire transaction fails, and the database state is left unchanged. An atomic system must guarantee atomicity in each and every situation, including power failures, errors and crashes. To the outside world, a committed transaction appears (by its effects on the database) to be indivisible ("atomic"), and an aborted transaction does not happen.
+
+
+
 
 
 
