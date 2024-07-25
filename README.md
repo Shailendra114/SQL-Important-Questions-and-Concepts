@@ -1310,10 +1310,16 @@ In short, using this command we can name the different states of our data in any
 Committed**.**
 
 
-
 100. Consider the following code: START TRANSACTION /transaction body/ COMMIT; ROLLBACK; What does Rollback do?
 
 It does nothing. Once a transaction has executed commit, its effects can no longer be undone by rollback.
+
+101. What are valid properties of the transaction?
+
+The characteristics of these four properties as defined by Reuter and Härder are as follows:---
+
+
+
 
 
 
