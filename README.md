@@ -1343,6 +1343,15 @@ Durability
 
 If autocommit mode is enabled, each SQL statement forms a single transaction on its own. By default, most of DBMS start the session for each new connection with autocommit enabled, so they do a commit after each SQL statement if that statement did not return an error. If a statement returns an error, the commit or rollback behavior depends on the error.
 
+103. What is the default isolation level used in MySQL?
+
+REPEATABLE READ
+
+104. In MySQL autocommit is enabled by default for each session.
+
+TRUE
+
+
 
 
 
