@@ -1339,6 +1339,11 @@ Durability
 ​The durability property ensures that once a transaction has been committed, it will remain so, even in the event of power loss, crashes, or errors. In a relational database, for instance, once a group of SQL statements execute, the results need to be stored permanently (even if the database crashes immediately thereafter). To defend against power loss, transactions (or their effects) must be recorded in a non-volatile memory.
 
 
+102. What happens if autocommit is enabled?
+
+If autocommit mode is enabled, each SQL statement forms a single transaction on its own. By default, most of DBMS start the session for each new connection with autocommit enabled, so they do a commit after each SQL statement if that statement did not return an error. If a statement returns an error, the commit or rollback behavior depends on the error.
+
+
 
 
 
