@@ -1400,6 +1400,14 @@ All changes performed by SQL statements are executed only after a COMMIT command
 
 A database view helps limit data access to specific users. You may not want a subset of sensitive data can be queryable by all users
 
+108. Does a View contain data?
+
+A view does not contain any data of its own, but is like a window through which data from other tables can be viewed and changed.
+
+The answer depends on the type of view. In case of normal view, the answer is NO it only contains query based on a base table but in case of materialized view, YES it does contain data and for the updated data in the base table, it needs to be refreshed.
+
+
+
 
 
 
