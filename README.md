@@ -1392,6 +1392,15 @@ If the view you want to update is based upon another view, the later should be u
 
 Any of the selected output fields (of the view) must not use constants, strings or value expressions.
 
+107. What are the advantages of Views?
+
+Simplify queries: You can use database view to hide the complexity of underlying tables to the end-users and external applications
+
+All changes performed by SQL statements are executed only after a COMMIT command.
+
+A database view helps limit data access to specific users. You may not want a subset of sensitive data can be queryable by all users
+
+
 
 
 
