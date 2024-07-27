@@ -1368,6 +1368,32 @@ SELECT column1, column2, ...
 FROM table_name
 WHERE condition;
 
+106. Are views updatable using INSERT, DELETE or UPDATE?
+
+The SQL UPDATE VIEW command can be used to modify the data of a view.
+
+All views are not updatable. So, UPDATE command is not applicable to all views. An updatable view is one which allows performing a UPDATE command on itself without affecting any other table.
+
+When can a view be updated?
+
+The view is defined based on one and only one table.
+
+The view must include the PRIMARY KEY of the table based upon which the view has been created.
+
+The view should not have any field made out of aggregate functions.
+
+The view must not have any DISTINCT clause in its definition.
+
+The view must not have any GROUP BY or HAVING clause in its definition.
+
+The view must not have any SUBQUERIES in its definitions.
+
+If the view you want to update is based upon another view, the later should be updatable.
+
+Any of the selected output fields (of the view) must not use constants, strings or value expressions.
+
+
+
 
 
 
