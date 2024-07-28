@@ -1415,6 +1415,11 @@ SQL DROP VIEW Syntax
 
 DROP VIEW view_name;
 
+110. Can a View based on another View?
+
+Yes, A View is based on another View.
+
+
 
 
 
