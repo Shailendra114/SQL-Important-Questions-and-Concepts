@@ -1407,6 +1407,16 @@ A view does not contain any data of its own, but is like a window through which 
 The answer depends on the type of view. In case of normal view, the answer is NO it only contains query based on a base table but in case of materialized view, YES it does contain data and for the updated data in the base table, it needs to be refreshed.
 
 
+109. What SQL statement do you have to use to remove a view?
+
+You can delete a view with the DROP VIEW command.
+
+SQL DROP VIEW Syntax
+
+DROP VIEW view_name;
+
+
+
 
 
 
