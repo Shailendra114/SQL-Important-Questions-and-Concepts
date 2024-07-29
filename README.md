@@ -1432,6 +1432,12 @@ Process the row
 Close Cursor
 Deallocate Cursor
 
+112. How do you call the process of finding a good strategy for processing a query?
+
+Query optimization is a function of many relational database management systems. The query optimizer attempts to determine the most efficient way to execute a given query by considering the possible query plans.
+
+
+
 
 
 
