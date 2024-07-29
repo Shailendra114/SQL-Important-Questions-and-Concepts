@@ -1437,6 +1437,29 @@ Deallocate Cursor
 Query optimization is a function of many relational database management systems. The query optimizer attempts to determine the most efficient way to execute a given query by considering the possible query plans.
 
 
+113. What is a trigger? or There are triggers for… or A trigger is applied to*
+
+Triggers in SQL is kind of stored procedures used to create a response to a specific action performed on the table. You can invoke triggers explicitly on the table in the database.
+
+Triggers are, in fact, written to be executed in response to any of the following events:
+
+A database manipulation (DML) statement (DELETE , INSERT , or UPDATE )
+
+A database definition (DDL) statement (CREATE , ALTER , or DROP ).
+
+A database operation (SERVERERROR , LOGON , LOGOFF , STARTUP , or SHUTDOWN ).
+
+Action and Event are two main components of SQL triggers when certain actions are performed the event occurs in response to that action.
+
+Syntax
+
+CREATE TRIGGER name {BEFORE|AFTER} (event [OR..]}
+ON table_name [FOR [EACH] {ROW|STATEMENT}]
+EXECUTE PROCEDURE functionname {arguments}
+
+
+
+
 
 
 
