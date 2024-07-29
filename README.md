@@ -1419,6 +1419,20 @@ DROP VIEW view_name;
 
 Yes, A View is based on another View.
 
+111. Inside a stored procedure you to iterate over a set of rows returned by a query using a
+
+A CURSOR is a database object which is used to manipulate data in a row-to-row manner.
+
+Cursor follows steps as given below:
+
+Declare Cursor
+Open Cursor
+Retrieve row from the Cursor
+Process the row
+Close Cursor
+Deallocate Cursor
+
+
 
 
 
