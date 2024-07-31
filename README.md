@@ -1469,6 +1469,9 @@ SQL injection is one of the most common web hacking techniques.
 
 SQL injection is the placement of malicious code in SQL statements, via web page input.
 
+**Resources**
+
+
 
 
 
