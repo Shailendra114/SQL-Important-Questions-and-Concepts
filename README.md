@@ -1457,6 +1457,19 @@ CREATE TRIGGER name {BEFORE|AFTER} (event [OR..]}
 ON table_name [FOR [EACH] {ROW|STATEMENT}]
 EXECUTE PROCEDURE functionname {arguments}
 
+114. A special kind of a stored procedure that executes in response to certain action on the table like insertion, deletion or updation of data is called
+
+Trigger.
+
+115. What is SQL Injection?
+
+SQL injection is a code injection technique that might destroy your database.
+
+SQL injection is one of the most common web hacking techniques.
+
+SQL injection is the placement of malicious code in SQL statements, via web page input.
+
+
 
 
 
